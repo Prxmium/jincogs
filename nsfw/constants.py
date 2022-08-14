@@ -31,6 +31,13 @@ NOT_EMBED_DOMAINS = (
 GOOD_EXTENSIONS = (".png", ".jpg", ".jpeg", ".gif", "gifv")
 
 # Subreddits
+HC_ANAL = [
+    "AnalFleshlight",
+    "Anal_witch",
+    "AnalGape",
+    "pipaypipo",
+    "OnixyaaCamgirl"
+]
 FOUR_K = [
     "Hegre",
     "HighResASS",
