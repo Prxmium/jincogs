@@ -414,4 +414,12 @@ class Nsfw(Core):
     async def yiff(self, ctx: commands.Context):
         """Sends random post from /r/yiff"""
 
-        await self._send_msg(ctx, _("yiff"), sub.YIFF)
+        await self._send_msg(ctx, _("hcanal"), sub.HC_ANAL)
+    @commands.is_nsfw()
+    @commands.bot_has_permissions(embed_links=True)
+    @commands.cooldown(1, 0.5, commands.BucketType.user)
+    @commands.command(aliases=["hca"])
+    async def hc_anal(self, ctx: commands.Context):
+        """Sends random hardcore anal posts"""
+
+        await self._send_msg(ctx, _("hcanal"), sub.HC_ANAL)
